@@ -22,8 +22,9 @@
       background-color: #00AEEF;
     }
 
-.brand {
+.navbar .brand {
   background-color: #00AEEF;
+  margin-left: 20px;
 }
 
 .logo {
@@ -63,31 +64,40 @@ nav.li.active {
   </head>
   
   <body >
-  <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
    <div class="navbar-inner">
-     <div class="container">
-        <a class="brand" href="index.html"> <img src="./common/img/kibio.mark-white.png"></a>
-        <!--
+     <div class="container-fluid">
+      <!--
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        -->
+
+          <a class="brand" href="index.html"> <img src="./common/img/kibio.mark-white.png"></a>
+          <!--
+          <div class="nav-collapse collapse">
             <ul class="nav pull-right">
-        <li>
+              <li>
                 <a href="./index.html">Download</a>
               </li>
-              <li>
+              <li class="active">
                 <a href="#">What is this?</a>
               </li>
-              <li class="active">
-                <a href="./team.html">The Team</a>
+              <li>
+                <a href="/team.html">The Team</a>
               </li>
               <li>
-                <a href="./partners.html">Our Friends</a>
+                <a href="/partners.html">Our Partners</a>
               </li>
-            </ul>
-            -->
-</div>
+            </ul>-->
+          </div> 
+          
+    </div>
    </div>
- </div>
 
-    <div class="logo span12">
+    <div class="logo">
     <img src="./common/img/kibio.logo.squarepixels.nobg-01.png" />
       <br/>
       <br/>
